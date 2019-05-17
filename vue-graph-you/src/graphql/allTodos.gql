@@ -1,0 +1,6 @@
+query allTodos($count: Int!) {
+  allTodos(count: $count) {
+    title
+    id
+  }
+}
